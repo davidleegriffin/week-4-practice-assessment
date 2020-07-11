@@ -46,5 +46,6 @@ window.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("input", inputBox.value);
     }); //end of prob 6;
 
+    document.getElementById("will-not-check").addEventListener("click", event => event.preventDefault());
 
 });
