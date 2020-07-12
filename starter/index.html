@@ -58,25 +58,25 @@
       <li>Div Id: <code>add-image</code></li>
     </ul>
     <p>When you click the button below one of two things will happen:</p>
-      <ul>
-        <li>
-          <strong>A.</strong> If the div with the id of "add-image" does not
-          have children, then you should create an image element, set its source
-          attribute to "./images/logo-emblem-black.svg" and append it to the div
-          with the id of "add-image".
-        </li>
-        <li>
-          <strong>B.</strong> If the div with the id of "add-image"
-          <strong>has</strong> children, nothing should happen (no image should
-          be added to the element).
-        </li>
-      </ul>
-      <p>Write code in the "your-code.js" file to make that happen.</p>
+    <ul>
+      <li>
+        <strong>A.</strong> If the div with the id of "add-image" does not
+        have children, then you should create an image element, set its source
+        attribute to "./images/logo-emblem-black.svg" and append it to the div
+        with the id of "add-image".
+      </li>
+      <li>
+        <strong>B.</strong> If the div with the id of "add-image"
+        <strong>has</strong> children, nothing should happen (no image should
+        be added to the element).
+      </li>
+    </ul>
+    <p>Write code in the "your-code.js" file to make that happen.</p>
     <div class="problem-area" id="problem-area-3">
       <button id="add-image-btn">Add image to the square</button>
       <div id="add-image"></div>
     </div>
-  </fieldset> 
+  </fieldset>
 
   <fieldset>
     <legend>PROBLEM 4: Stop the bubbling!</legend>
@@ -87,8 +87,9 @@
     <p>
       Currently when you type anything into the blue outlined rectangle below
       the whole rectangle surrounding it turns red. This is because the Div with
-      the id of "bubble-foe" is listening to the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/keydown_event" target="_blank">
-      "keydown"</a> event of the input box (the blue outlined rectangle).
+      the id of "bubble-foe" is listening to the <a
+        href="https://developer.mozilla.org/en-US/docs/Web/API/Document/keydown_event" target="_blank">
+        "keydown"</a> event of the input box (the blue outlined rectangle).
       Write code so that when you input text in the box below the rectangle
       surrounding it does not turn red: because you have stopped the
       propagation of the event up the stack. Write code in the "your-code.js"
@@ -96,7 +97,7 @@
     </p>
     <div class="problem-area" id="problem-area-4">
       <div id="bubble-foe">
-      <input type="text" id="bubble-friend" placeholder="Hopefully I don't turn red...">
+        <input type="text" id="bubble-friend" placeholder="Hopefully I don't turn red...">
       </div>
     </div>
   </fieldset>
@@ -174,7 +175,7 @@
       <pre>document.getElementById('nickname').value = 'Dima';</pre>
     </p>
     <div class="problem-area" id="problem-area-6">
-      <input type="text" id="fav-flavor" placeholder="What's your Favorite Flavor?"/>
+      <input type="text" id="fav-flavor" placeholder="What's your Favorite Flavor?" />
       <button id="store-flavor">Store Flavor</button>
     </div>
   </fieldset>
